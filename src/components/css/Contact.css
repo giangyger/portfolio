@@ -1,0 +1,46 @@
+.contact {
+  max-width: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+}
+.input {
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  font-size: 2em;
+  height: 2.5em;
+  border: 3px solid rgb(99, 104, 131);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.area {
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  font-size: 2em;
+  height: 200px;
+  border: 3px solid rgb(99, 104, 131);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 2em;
+  font-weight: 700;
+  color: rgb(99, 104, 131);
+}
+#submit {
+  margin-top: 50px;
+  border: 3px solid rgb(99, 104, 131);
+  background-color: rgb(243, 243, 243);
+  font-size: 2em;
+  font-family: Roboto;
+  padding: 10px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(142, 148, 185);
+  width: 100%;
+  transition: 0.2s;
+}
+#submit:hover {
+  background-color: rgb(99, 104, 131);
+}

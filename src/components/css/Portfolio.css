@@ -1,0 +1,44 @@
+.page-title {
+  font-weight: 900;
+  font-size: 4em;
+  color: rgb(48, 51, 68);
+  text-align: center;
+}
+.divider-sm {
+  width: 100px;
+  border: none;
+  height: 3px;
+  background-color: rgb(48, 51, 68);
+  margin: 15px auto;
+}
+.top-element {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.imgbox {
+  display: inline-block;
+  margin: 2%;
+
+  padding: 10px;
+  width: 46%;
+  box-sizing: border-box;
+}
+.imgbox img {
+  width: 100%;
+}
+
+.images {
+  align-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+#i1 {
+  border: 8px solid #4d5176;
+}
+#i2 {
+  border: 8px solid #684c4b;
+}
