@@ -1,13 +1,17 @@
 .front-end,
 .back-end,
 .other {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 700;
   color: rgb(91, 114, 155);
   list-style-type: none;
   width: 160px;
+  display: inline-block;
 }
 
+.top-element {
+  width: 100%;
+}
 .card {
   display: inline-block;
   margin: 20px;
@@ -16,9 +20,11 @@
 }
 
 .list-title {
-  font-size: 3em;
-  font-weight: 900;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
   margin-bottom: 20px;
+  color: rgb(54, 54, 54);
 }
 .ld {
   margin-bottom: 10px;
@@ -27,7 +33,11 @@
   border: none;
 }
 .item {
+  text-align: center;
   margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(112, 112, 112);
 }
 .skills {
   width: 100px;
@@ -41,4 +51,45 @@
   right: 0;
 
   margin: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 50px;
+}
+@media only screen and (max-width: 870px) {
+  .page-title {
+    margin-top: 40px;
+  }
+  .card {
+    display: block;
+  }
+  .i3 {
+    display: block;
+  }
+  .pack3 {
+    display: inline-block;
+    margin: 10px 20px;
+    width: 38%;
+  }
+  .front-end,
+  .back-end,
+  .other {
+    width: 350px;
+    margin: auto;
+  }
+  @media only screen and (max-width: 530px) {
+    .pack3 {
+      width: 30%;
+    }
+    .front-end,
+    .back-end,
+    .other {
+      width: 220px;
+      margin: auto;
+    }
+  }
 }

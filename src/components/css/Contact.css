@@ -1,9 +1,8 @@
 .contact {
   max-width: 600px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   padding: 20px;
+  margin: auto;
 }
 .input {
   width: 100%;
@@ -29,7 +28,7 @@
   color: rgb(99, 104, 131);
 }
 #submit {
-  margin-top: 50px;
+  margin-top: 10px;
   border: 3px solid rgb(99, 104, 131);
   background-color: rgb(243, 243, 243);
   font-size: 2em;
@@ -40,6 +39,7 @@
   background-color: rgb(142, 148, 185);
   width: 100%;
   transition: 0.2s;
+  margin-bottom: 20px;
 }
 #submit:hover {
   background-color: rgb(99, 104, 131);
